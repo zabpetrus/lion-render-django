@@ -6,3 +6,4 @@ staticfiles/
 .venv/
 venv/
 db.sqlite3
+startup.txt

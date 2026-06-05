@@ -1,0 +1,28 @@
+
+-- pacotes basicos para um novo projeto django
+pip install django djangorestframework drf-spectacular
+
+-- instala os pacotes definidos no arquivo requirements.txt
+pip install -r requirements.txt
+
+-- pega os pacotes instalados e joga para o requirements.txt, localizado em venv\Scripts\activate 
+pip freeze > requirements.txt
+
+-- instalando o postgres
+pip install psycopg2-binary
+
+-- executando migracoes
+python manage.py migrate
+
+-- criação de superusuario
+python manage.py createsuperuser
+
+-- rodar servidor
+python manage.py runserver
+
+-- sobre as credenciais
+Usuário (leave blank to use 'zsant'):
+Endereço de email: zabpetrus@gmail.com
+Password:
+Password (again):
+Superuser created successfully.
